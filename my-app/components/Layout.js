@@ -1,7 +1,10 @@
 import React from "react";
+import NavbarMain from "./NavbarMain";
 
 export default function Layout() {
     return <>
-    <p1>Hello, test</p1>
+    <div style={{background: "black"}}>
+    <NavbarMain/>
+    </div>
     </>
 }
