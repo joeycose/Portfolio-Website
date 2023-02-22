@@ -1,3 +1,62 @@
 :root {
   background: black;
 }
+
+@media only screen and (max-width: 768px) {
+  /* stack columns in mobile view */
+  .stack-columns {
+    flex-direction: column;
+  }
+  
+  /* adjust margin and padding */
+  .container-fluid {
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  /* adjust height */
+  .card {
+    height: auto !important;
+  }
+  
+  /* center align image */
+  .card-img-top {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 991px) {
+  #NavbarMain {
+    background-color: #212529;
+    padding: 0.5rem 1rem;
+  }
+
+  #NavbarMain .navbar-brand {
+    font-size: 1.5rem;
+  }
+
+  #NavbarMain .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+
+  #NavbarMain .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+
+  #NavbarMain .navbar-nav {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+  }
+
+  #NavbarMain .navbar-nav .nav-link {
+    padding: 0.5rem 0;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  #NavbarMain .navbar-nav .nav-link:last-child {
+    border-bottom: none;
+  }
+}
