@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 export default function MainNav() {
     return (
-        <Navbar id="NavbarMain" collapseOnSelect expand="lg" variant="dark" className="border-bottom border-grey">
+        <Navbar id="NavbarMain" collapseOnSelect expand="lg" variant="dark" className="" style={{borderBottom: '1px solid grey'}}>
             <Container className="align-items-centre">
                 <Navbar.Toggle className="ml-auto" aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
