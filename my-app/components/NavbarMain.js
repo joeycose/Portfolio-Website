@@ -21,7 +21,7 @@ export default function MainNav() {
     };
 
     return (
-        <Navbar id="NavbarMain" collapseOnSelect expand="lg" variant="dark" className="" style={{ borderBottom: '1px solid grey' }}>
+        <Navbar id="NavbarMain" collapseOnSelect expand="lg" variant="dark" className="" style={{ borderBottom: '1px solid grey', height: '50px' }}>
             <Container className="align-items-center">
                 <Navbar.Toggle className="ml-auto" aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">

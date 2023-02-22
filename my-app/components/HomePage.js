@@ -55,13 +55,13 @@ export default function HomePage() {
             <Row style={{ justifyContent: 'center', marginBottom: '100px', marginTop: '20px' }}>
                 <Col md={8}>
                     <div className="text-white" style={{ marginTop: '110px' }}>
-                        <h5 style={{ textAlign: 'left', marginBottom: '20px', color: 'Lightgrey' }}>Knowledge</h5>
+                        <h5 style={{ textAlign: 'left', marginBottom: '20px', color: 'Lightgrey' }}> <strong></strong>Knowledge</h5>
                         <Card className="bg-black border-grey" style={{ paddingRight: '15px', paddingLeft: '15px', border: '1px solid grey', borderRadius: '0px' }}>
                             <Card.Header style={{ borderBottom: '1px solid grey' }}>
                                 <Card.Title style={{ color: 'Lightgrey' }}> <strong>Full-Stack Development :</strong> </Card.Title>
                             </Card.Header>
                             <Card.Body>
-                                <Card.Text style={{ color: 'grey', paddingTop: '16px', fontWeight: 'lighter' }}>
+                                <Card.Text style={{ color: 'grey', paddingTop: '4px', fontWeight: 'lighter' }}>
                                     As a Full-Stack Developer, I have experience building web applications using the MERN (MongoDB, Express.js, React.js, Node.js) stack. I am proficient in both the front-end and back-end technologies, allowing me to develop applications end-to-end.
 
                                     I have worked on a variety of projects, ranging from simple CRUD (Create, Read, Update, Delete) applications to more complex systems that involve real-time data processing and analytics. Some of the applications I've developed include e-commerce websites, social media platforms, and management systems.
@@ -77,8 +77,10 @@ export default function HomePage() {
                                 <Card.Title style={{ color: 'Lightgrey' }}> <strong>C++ Development :</strong> </Card.Title>
                             </Card.Header>
                             <Card.Body>
-                                <Card.Text style={{ color: 'Lightgrey', paddingTop: '16px' }}>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet fermentum urna. Vestibulum quis aliquam orci, ac dapibus augue. Nullam elementum sem vel ante vulputate lacinia. Duis sagittis sem eu massa consequat bibendum. Vestibulum molestie lacinia diam, sit amet mattis mauris tincidunt vel. Donec vel lectus sit amet velit iaculis bibendum a vitae odio. Sed rhoncus nibh eget felis pellentesque tempor.
+                                <Card.Text style={{ color: 'grey', paddingTop: '4px', fontWeight: 'lighter' }}>
+                                    I have extensive knowledge in C++ development, particularly in the use of the Standard Template Library (STL). I have worked on a variety of projects using C++, including developing algorithms, building data structures, and creating efficient programs for high-performance computing.
+
+                                    What I love most about C++ development is the ability to create complex programs with a high degree of control over memory management and performance. The STL also provides a powerful set of tools for managing data and algorithms, making it a versatile language for a wide range of projects.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
