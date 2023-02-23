@@ -2,6 +2,13 @@
   background: black;
 }
 
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
 @media only screen and (max-width: 768px) {
   /* stack columns in mobile view */
   .stack-columns {

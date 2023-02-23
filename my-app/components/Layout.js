@@ -8,8 +8,8 @@ export default function Layout() {
     return <>
     <div style={{background: "black"}}>
     <NavbarMain/>
-    <HomePage/>
-    <ProjectPage/>
+    <HomePage id="home"/>
+    <ProjectPage id="projects"/>
     </div>
     </>
 }

@@ -7,7 +7,7 @@ import { MDBBtn, MDBIcon } from 'mdb-react-ui-kit';
 
 export default function HomePage() {
     return (
-        <Container fluid style={{ paddingTop: '90px', justifyContent: 'center' }}>
+        <Container id="home" fluid style={{ paddingTop: '90px', justifyContent: 'center' }}>
             <Row style={{ justifyContent: 'center' }}>
                 <Col md={8}>
                     <Card className="bg-black text-white border-grey" style={{ height: '104%', paddingRight: '15px', paddingLeft: '15px', border: '1px solid grey', borderRadius: '0px' }}>
@@ -16,14 +16,14 @@ export default function HomePage() {
                             <Card.Text style={{ fontSize: '30px' }}>
                                 <strong style={{ color: 'Lightgrey', }}>Giuseppe Cosentino</strong>.
                             </Card.Text>
-                            <Card.Text style={{ color: 'grey', paddingTop: '16px', fontWeight: 'lighter' }}>
+                            <Card.Text style={{ color: 'Lightgrey', paddingTop: '16px', fontWeight: 'lighter' }}>
                                 I am a dedicated and passionate individual, who is constantly seeking self-improvement in order to gain new skills. I enjoy working in a team environment and will do anything possible to make sure all projects are completed effectively. Through my education at Seneca I have gained knowledge of the Software industry and will continue to work hard while accumulating experience. Below You can find all my Work Experience and Projects.
                             </Card.Text>
                         </Card.Body>
                     </Card>
                 </Col>
                 <Col md={2}>
-                    <Card className="bg-black text-white border-grey" style={{ height: '104%', paddingRight: '15px', paddingLeft: '15px', border: '1px solid grey', borderRadius: '0px' }}>
+                    <Card className="bg-black text-white border-grey" style={{ height: '104%', border: '1px solid grey', borderRadius: '0px' }}>
                         <Card.Body className="text-center">
                             <img variant="top" src="/joe.jpg" className="rounded-circle" style={{ maxWidth: '100%', maxHeight: '100%' }} />
                         </Card.Body>
@@ -55,13 +55,13 @@ export default function HomePage() {
             <Row style={{ justifyContent: 'center', marginBottom: '100px', marginTop: '20px' }}>
                 <Col md={8}>
                     <div className="text-white" style={{ marginTop: '110px' }}>
-                        <h5 style={{ textAlign: 'left', marginBottom: '20px', color: 'Lightgrey' }}> <strong></strong>Knowledge</h5>
-                        <Card className="bg-black border-grey" style={{ paddingRight: '15px', paddingLeft: '15px', border: '1px solid grey', borderRadius: '0px' }}>
-                            <Card.Header style={{ borderBottom: '1px solid grey' }}>
+                        <h5 style={{ textAlign: 'left', marginBottom: '20px', color: 'Lightgrey' }}> <strong>Knowledge</strong></h5>
+                        <Card className="bg-black border-grey" style={{ border: '1px solid grey', borderRadius: '0px' }}>
+                            <Card.Header style={{ borderBottom: '1px solid grey', padding: '6px', marginTop: '8px' }}>
                                 <Card.Title style={{ color: 'Lightgrey' }}> <strong>Full-Stack Development :</strong> </Card.Title>
                             </Card.Header>
-                            <Card.Body>
-                                <Card.Text style={{ color: 'grey', paddingTop: '4px', fontWeight: 'lighter' }}>
+                            <Card.Body style={{ padding: '10px' }}>
+                                <Card.Text style={{ color: 'Lightgrey', paddingTop: '4px', fontWeight: 'lighter' }}>
                                     As a Full-Stack Developer, I have experience building web applications using the MERN (MongoDB, Express.js, React.js, Node.js) stack. I am proficient in both the front-end and back-end technologies, allowing me to develop applications end-to-end.
 
                                     I have worked on a variety of projects, ranging from simple CRUD (Create, Read, Update, Delete) applications to more complex systems that involve real-time data processing and analytics. Some of the applications I've developed include e-commerce websites, social media platforms, and management systems.
@@ -72,12 +72,12 @@ export default function HomePage() {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
-                        <Card className="bg-black border-grey" style={{ paddingRight: '15px', paddingLeft: '15px', border: '1px solid grey', borderRadius: '0px', marginTop: '20px' }}>
-                            <Card.Header style={{ borderBottom: '1px solid grey' }}>
+                        <Card className="bg-black border-grey" style={{ border: '1px solid grey', borderRadius: '0px', marginTop: '20px' }}>
+                            <Card.Header style={{ borderBottom: '1px solid grey', padding: '6px', marginTop: '8px' }}>
                                 <Card.Title style={{ color: 'Lightgrey' }}> <strong>C++ Development :</strong> </Card.Title>
                             </Card.Header>
-                            <Card.Body>
-                                <Card.Text style={{ color: 'grey', paddingTop: '4px', fontWeight: 'lighter' }}>
+                            <Card.Body style={{ padding: '10px' }}>
+                                <Card.Text style={{ color: 'Lightgrey', fontWeight: 'lighter' }}>
                                     I have extensive knowledge in C++ development, particularly in the use of the Standard Template Library (STL). I have worked on a variety of projects using C++, including developing algorithms, building data structures, and creating efficient programs for high-performance computing.
 
                                     What I love most about C++ development is the ability to create complex programs with a high degree of control over memory management and performance. The STL also provides a powerful set of tools for managing data and algorithms, making it a versatile language for a wide range of projects.
@@ -89,9 +89,9 @@ export default function HomePage() {
                 <Col md={2}>
                     <Card className="bg-black text-white border-grey" style={{ paddingRight: '15px', paddingLeft: '15px', border: '1px solid grey', marginTop: '154px', borderRadius: '0px' }}>
                         <Card.Header style={{ borderBottom: '1px solid grey', textAlign: 'center' }}>
-                            <Card.Title style={{ color: 'Lightgrey', fontSize: '18px' }}> <strong>Programming Languages</strong></Card.Title>
+                            <Card.Title style={{ color: 'Lightgrey', fontSize: '18px' }}> <strong>Languages</strong></Card.Title>
                         </Card.Header>
-                        <Card.Body style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
+                        <Card.Body style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', color: 'Lightgrey' }}>
                             <div style={{ paddingBottom: '10px' }}>
                                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" style={{ height: '20px', marginRight: '5px' }} />
                                 C++
@@ -109,7 +109,7 @@ export default function HomePage() {
                                 React.js
                             </div>
                             <div style={{ paddingBottom: '10px' }}>
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js" style={{ height: '20px', marginRight: '5px' }} />
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js" style={{ height: '20px', marginRight: '5px', filter: 'invert(1)' }} />
                                 Next.js
                             </div>
                             <div style={{ paddingBottom: '10px' }}>
@@ -121,12 +121,12 @@ export default function HomePage() {
                                 SQL
                             </div>
                             <div style={{ paddingBottom: '10px' }}>
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express.js" style={{ height: '20px', marginRight: '5px' }} />
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express.js" style={{ height: '20px', marginRight: '5px', filter: 'invert(1)' }} />
                                 Express.js
                             </div>
                             <div style={{ paddingBottom: '10px' }}>
                                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" alt="AWS Cloud Services" style={{ height: '20px', marginRight: '5px' }} />
-                                AWS Cloud Services
+                                AWS
                             </div>
                         </Card.Body>
                     </Card>

@@ -15,7 +15,7 @@ export default function MainNav() {
     }
 
     const linkStyle = {
-        color: hovered ? "white" : "grey",
+        color: hovered ? "LightGrey" : "grey",
         paddingRight: '20px',
         cursor: 'pointer'
     };
@@ -26,8 +26,8 @@ export default function MainNav() {
                 <Navbar.Toggle className="ml-auto" aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mx-auto" style={{ fontSize: '17px' }}>
-                        <Nav.Link style={linkStyle} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut} href="/">Home</Nav.Link>
-                        <Nav.Link style={linkStyle} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut} href="/projects">Projects</Nav.Link>
+                        <Nav.Link style={linkStyle} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut} href="#home">Home</Nav.Link>
+                        <Nav.Link style={linkStyle} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut} href="#projects">Projects</Nav.Link>
                         <Nav.Link style={linkStyle} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut} href="/contact">Contact</Nav.Link>
                         <Nav.Link style={linkStyle} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut} href="/blog">Blog</Nav.Link>
                     </Nav>
